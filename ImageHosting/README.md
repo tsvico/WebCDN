@@ -1,11 +1,11 @@
 教程参考[Github+jsDelivr+PicGo 打造稳定快速、高效免费图床](https://www.itrhx.com/2019/08/01/A27-image-hosting/)
 原文备份，未改动
 
-[![ImgHosting](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/ImgHosting.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/ImgHosting.png)
+![ImgHosting](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/ImgHosting.png)
 
 ---
 
-# [#–-前言](#–-前言)– 前言
+# 前言
 
 图床是个啥东西就不用过多介绍了，先来对比一下各路图床：
 
@@ -19,35 +19,35 @@
 
 ---
 
-# [#–-新建GitHub仓库](#–-新建GitHub仓库)– 新建GitHub仓库
+#  新建GitHub仓库
 
 登录/注册GitHub，新建一个仓库，填写好仓库名，仓库描述，根据需求选择是否为仓库初始化一个README.md描述文件
 
-[![01](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/01.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/01.png)
+![01](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/01.png)
 
-[![02](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/02.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/02.png)
+![02](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/02.png)
 
 ---
 
-# [#–-生成一个Token](#–-生成一个Token)– 生成一个Token
+# 生成一个Token
 
 在主页依次选择【Settings】-【Developer settings】-【Personal access tokens】-【Generate new token】，填写好描述，勾选【repo】，然后点击【Generate token】生成一个Token，注意这个Token只会显示一次，自己先保存下来，或者等后面配置好PicGo后再关闭此网页
 
-[![03](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/03.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/03.png)
+![03](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/03.png)
 
-[![04](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/04.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/04.png)
+![04](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/04.png)
 
-[![05](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/05.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/05.png)
+![05](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/05.png)
 
-[![06](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/06.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/06.png)
+![06](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/06.png)
 
-[![07](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/07.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/07.png)
+![07](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/07.png)
 
-# [#–-配置PicGo](#–-配置PicGo)– 配置PicGo
+# 配置PicGo
 
 前往[下载PicGo](https://github.com/Molunerfinn/picgo/releases)，安装好后开始配置图床
 
-[![08](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/08.png)](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/08.png)
+![08](https://cdn.jsdelivr.net/gh/TRHX/ImageHosting/ITRHX-PIC/A27/08.png)
 
 - 设定仓库名：按照【用户名/图床仓库名】的格式填写
 
@@ -63,6 +63,6 @@
 
 ---
 
-# [#–-进行高效创作](#–-进行高效创作)– 进行高效创作
+# 进行高效创作
 
 配置好PicGo后，我们就可以进行高效创作了，将图片拖拽到上传区，将会自动上传并复制访问链接，将链接粘贴到博文中就行了，访问速度杠杠的，此外PicGo还有相册功能，可以对已上传的图片进行删除，修改链接等快捷操作，PicGo还可以生成不同格式的链接、支持批量上传、快捷键上传、自定义链接格式、上传前重命名等，更多功能自己去探索吧！
